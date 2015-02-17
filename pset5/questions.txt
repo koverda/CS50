@@ -1,0 +1,37 @@
+0.  BMP supports 2^32 colors, GIF 256 colors per image from the 2^24 color space, JPEG 2^24, and PNG 2^24 colors from RBG, 2^32 with RGBA
+
+1.  GIF supports animation
+
+2.  lossy compression loses information about the original image, lossless contains all information about the original image
+
+3.  jpeg is a lossy compression format
+
+4.  the table which stores the location of the file on the drive now marks the file's location as free space
+
+5.  overwrite the space where the file was stored with a squecnce of various 1's and 0's
+
+6.  stdint.h is a library which defines types of specific size and signedness, and also macros to work with types' sizes
+
+7.  so you know exactly the size and signedness of the variables which you are using
+
+8.  BYTE is 1 byte, DWORD is 4 bytes , LONG is 4 bytes, WORD is 2 bytes ,
+
+9.  BM in ascii
+
+10. bfSize is the size of the bitmap file, biSize is the size of the BITMAPINFOHEADER (40 bytes)
+
+11. it means that the image is stored in a "bottom up" way, with the first line of the file being the last line of the image. 
+
+12. offset 28 biBitCount (bits per pixel) determines color depth
+
+13. if for some reason you can't open a file (system permissions), or you specify a bad filename
+
+14. because we are copying only one element at a time    
+
+15. 1
+
+16. sets the file position indicator for stream 
+
+17. SEEK_CUR used in fseek means that the offset for the position indicator of the stream is set relative to the current position (rather than the beginning or end of the file)
+
+18. Milo Banana dun it!
